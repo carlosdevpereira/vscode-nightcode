@@ -1,0 +1,22 @@
+{
+	"editor.fontFamily": "Operator Mono",
+	"editor.fontLigatures": true,
+	"editor.renderWhitespace": "all",
+	"editor.fontSize": 14,
+	"editor.fontWeight": "400",
+	"editor.tabSize": 2,
+	"editor.lineHeight": 24,
+	"editor.minimap.renderCharacters": true,
+	"editor.minimap.showSlider": "always",
+	"editor.occurrencesHighlight": true,
+	"editor.renderIndentGuides": true,
+	"editor.glyphMargin": true,
+	"editor.roundedSelection": true,
+	"editor.colorDecorators": true,
+	"editor.smoothScrolling": true,
+	"editor.snippetSuggestions": "inline",
+	"editor.trimAutoWhitespace": true,
+	"diffEditor.renderSideBySide": true,
+	"editor.lightbulb.enabled": true,
+	"editor.acceptSuggestionOnEnter": "on"
+}
