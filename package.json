@@ -1,65 +1,74 @@
 {
-  "name": "nightcode",
-  "displayName": "NightCode",
-  "description": "Nightcode theme for visual studio code editor",
-  "version": "1.0.0",
-  "keywords": ["theme", "dark", "night"],
-  "author": "Carlos Pereira <carlos.dev.pereira@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/carlosdevpereira/vscode-nightcode"
-  },
-  "publisher": "carlos-dev-pereira",
-  "engines": {
-    "vscode": "^1.20.0"
-  },
-  "categories": ["Themes", "Keymaps"],
-  "contributes": {
-    "iconThemes": [
-      {
-        "id": "vs-night-icons",
-        "label": "NightIcons",
-        "path": "./themes/NightIcons-icon-theme.json"
-      }
+    "name": "nightcode",
+    "displayName": "NightCode",
+    "description": "Nightcode theme for visual studio code editor",
+    "version": "1.1.1",
+    "keywords": [
+        "icon",
+        "iconset",
+        "theme",
+        "dark",
+        "night"
     ],
-    "themes": [
-      {
-        "label": "NightCode",
-        "uiTheme": "vs-dark",
-        "path": "./themes/NightCode-color-theme.json"
-      }
+    "author": "Carlos Pereira <carlos.dev.pereira@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/carlosdevpereira/vscode-nightcode"
+    },
+    "publisher": "carlos-dev-pereira",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Themes",
+        "Keymaps"
     ],
-    "keybindings": [
-      {
-        "key": "ctrl+[Equal]",
-        "mac": "cmd+[Equal]",
-        "command": "workbench.action.terminal.new"
-      },
-      {
-        "key": "ctrl+[Quote]",
-        "mac": "cmd+[Quote]",
-        "command": "-workbench.action.terminal.new"
-      },
-      {
-        "key": "shift+ctrl+\\",
-        "mac": "cmd+ctrl+\\",
-        "command": "workbench.action.terminal.toggleTerminal"
-      },
-      {
-        "key": "ctrl+shift+[BracketRight]",
-        "mac": "cmd+shift+[BracketRight]",
-        "command": "-workbench.action.terminal.toggleTerminal"
-      },
-      {
-        "key": "shift+ctrl+[Equal]",
-        "mac": "shift+cmd+[Equal]",
-        "command": "workbench.action.zoomIn"
-      },
-      {
-        "key": "ctrl+[Equal]",
-        "mac": "cmd+[Equal]",
-        "command": "-workbench.action.zoomIn"
-      }
-    ]
-  }
+    "contributes": {
+        "iconThemes": [
+            {
+                "id": "vs-night-icons",
+                "label": "NightIcons",
+                "path": "./themes/NightIcons-icon-theme.json"
+            }
+        ],
+        "themes": [
+            {
+                "label": "NightCode",
+                "uiTheme": "vs-dark",
+                "path": "./themes/NightCode-color-theme.json"
+            }
+        ],
+        "keybindings": [
+            {
+                "key": "ctrl+[Equal]",
+                "mac": "cmd+[Equal]",
+                "command": "workbench.action.terminal.new"
+            },
+            {
+                "key": "ctrl+[Quote]",
+                "mac": "cmd+[Quote]",
+                "command": "-workbench.action.terminal.new"
+            },
+            {
+                "key": "shift+ctrl+\\",
+                "mac": "cmd+ctrl+\\",
+                "command": "workbench.action.terminal.toggleTerminal"
+            },
+            {
+                "key": "ctrl+shift+[BracketRight]",
+                "mac": "cmd+shift+[BracketRight]",
+                "command": "-workbench.action.terminal.toggleTerminal"
+            },
+            {
+                "key": "shift+ctrl+[Equal]",
+                "mac": "shift+cmd+[Equal]",
+                "command": "workbench.action.zoomIn"
+            },
+            {
+                "key": "ctrl+[Equal]",
+                "mac": "cmd+[Equal]",
+                "command": "-workbench.action.zoomIn"
+            }
+        ]
+    }
 }

@@ -24,3 +24,14 @@ All changes to the "NightCode" extension will be documented in this file.
 ### Removed
 
 ---
+
+## [1.1.1] - 2018-02-18
+### Added
+- Markdown extension icons
+
+### Changed
+- Package.json version information
+
+### Removed
+
+---

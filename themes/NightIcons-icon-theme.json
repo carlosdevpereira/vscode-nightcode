@@ -273,6 +273,7 @@
 		".vscode": "__visual_studio_code"
 	},
 	"fileExtensions": {
+		"md": "_markdown",
 		"log": "__logs",
 		"sql": "_mysql",
 		"ico": "_picture",
