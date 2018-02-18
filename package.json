@@ -15,6 +15,13 @@
   },
   "categories": ["Themes", "Keymaps"],
   "contributes": {
+    "iconThemes": [
+      {
+        "id": "vs-night-icons",
+        "label": "NightIcons",
+        "path": "./themes/NightIcons-icon-theme.json"
+      }
+    ],
     "themes": [
       {
         "label": "NightCode",
