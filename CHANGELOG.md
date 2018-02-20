@@ -35,3 +35,14 @@ All changes to the "NightCode" extension will be documented in this file.
 ### Removed
 
 ---
+
+## [1.2.0] - 2018-02-20
+### Added
+- New folder icons
+- New extension icons
+
+### Changed
+
+### Removed
+
+---
